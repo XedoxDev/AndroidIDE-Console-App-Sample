@@ -1,3 +1,4 @@
+# Java application
 Basic Java console app for AndroidIDE. Includes default.jar with essential Java classes (from android.jar and nb-javac-17.0.0-api.zip), solving import issues. (javax.tools not working).
 
 Key Points:
@@ -15,7 +16,8 @@ Usage:
 
 Contact:
 
-t.me/XedoxSL
+(Telegram)[https://t.me/XedoxSL]
+(Github)[https://github.com/XedoxDev]
 
 Repo:
 
