@@ -1,0 +1,31 @@
+// Maked by tg@XedoxSL
+plugins {
+    id("application")
+    id("idea") // for woking with idea project, can delete
+}
+
+repositories {
+    mavenCentral()
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+application {
+    mainClass = "org.example.app.Main"
+}
+
+sourceSets {
+    main {
+        /** i can change to custom dir */
+        java.srcDirs = ["src/"]
+    }
+}
+
+dependencies {
+    /** NO DELETE! */
+    implementation files("libs/default.jar")
+}
